@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T15:29:51.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="cKYQfZIdiQF101I9C5WK" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T16:10:55.504Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="aUfGw4d920urFJV5Iw2N" version="16.6.4" type="github" pages="2">
   <diagram id="AibkVR3vhXZ1qRK5605h" name="Page-1">
-    <mxGraphModel dx="2008" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1759" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -170,6 +170,67 @@
             <mxPoint x="181" y="110" as="sourcePoint" />
             <mxPoint x="181" y="80" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="f0r2VEvVhPa_j0XLIMmR" name="Page-2">
+    <mxGraphModel dx="792" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-0" />
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-1" parent="UNS8vpQvrfPTmUhZOD5U-0" />
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;strokeColor=default;strokeWidth=1;" edge="1" parent="UNS8vpQvrfPTmUhZOD5U-1" source="UNS8vpQvrfPTmUhZOD5U-2" target="UNS8vpQvrfPTmUhZOD5U-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-2" value="开始" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;fillColor=none;" vertex="1" parent="UNS8vpQvrfPTmUhZOD5U-1">
+          <mxGeometry x="335" y="125" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;strokeColor=default;strokeWidth=1;" edge="1" parent="UNS8vpQvrfPTmUhZOD5U-1" source="UNS8vpQvrfPTmUhZOD5U-5" target="UNS8vpQvrfPTmUhZOD5U-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-5" value="获取 EBOM 数据" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;fillColor=none;strokeWidth=1;" vertex="1" parent="UNS8vpQvrfPTmUhZOD5U-1">
+          <mxGeometry x="320" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-6" value="CAD 工程BOM文件" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fillColor=none;strokeWidth=1;" vertex="1" parent="UNS8vpQvrfPTmUhZOD5U-1">
+          <mxGeometry x="500" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-7" value="用户上传的工程BOM文件" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fillColor=none;strokeWidth=1;" vertex="1" parent="UNS8vpQvrfPTmUhZOD5U-1">
+          <mxGeometry x="500" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-8" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rounded=0;fillColor=none;" vertex="1" parent="UNS8vpQvrfPTmUhZOD5U-1">
+          <mxGeometry x="440" y="180" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;strokeColor=default;strokeWidth=1;" edge="1" parent="UNS8vpQvrfPTmUhZOD5U-1" source="UNS8vpQvrfPTmUhZOD5U-10" target="UNS8vpQvrfPTmUhZOD5U-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;strokeColor=default;strokeWidth=1;" edge="1" parent="UNS8vpQvrfPTmUhZOD5U-1" source="UNS8vpQvrfPTmUhZOD5U-10" target="UNS8vpQvrfPTmUhZOD5U-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-10" value="判断 EBOM &lt;br&gt;结构完整性" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeWidth=1;fillColor=none;" vertex="1" parent="UNS8vpQvrfPTmUhZOD5U-1">
+          <mxGeometry x="327" y="284" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classicThin;endFill=1;strokeColor=default;strokeWidth=1;" edge="1" parent="UNS8vpQvrfPTmUhZOD5U-1" source="UNS8vpQvrfPTmUhZOD5U-13" target="UNS8vpQvrfPTmUhZOD5U-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classicThin;endFill=1;strokeColor=default;strokeWidth=1;" edge="1" parent="UNS8vpQvrfPTmUhZOD5U-1" source="UNS8vpQvrfPTmUhZOD5U-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-13" value="导入数据模型层" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;fillColor=none;strokeWidth=1;" vertex="1" parent="UNS8vpQvrfPTmUhZOD5U-1">
+          <mxGeometry x="320" y="386" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-14" value="结束" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;fillColor=none;" vertex="1" parent="UNS8vpQvrfPTmUhZOD5U-1">
+          <mxGeometry x="335" y="470" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-17" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UNS8vpQvrfPTmUhZOD5U-1">
+          <mxGeometry x="384" y="366" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-18" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UNS8vpQvrfPTmUhZOD5U-1">
+          <mxGeometry x="295" y="270" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UNS8vpQvrfPTmUhZOD5U-21" value="Semantic BOM" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;strokeWidth=1;fillColor=none;dashed=1;" vertex="1" parent="UNS8vpQvrfPTmUhZOD5U-1">
+          <mxGeometry x="480" y="376" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
